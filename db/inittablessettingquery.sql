@@ -3,8 +3,8 @@
 -- ブランドテーブル
 CREATE TABLE tbl_brand (
     brand_id INT IDENTITY(1,1) PRIMARY KEY,
-    brand_main VARCHAR(50) NOT NULL,
-    brand_sub VARCHAR(50) NULL
+    brand_main VARCHAR(50) NOT NULL
+    -- brand_sub VARCHAR(50)は削除
 );
 
 -- メインカテゴリテーブル
@@ -24,7 +24,9 @@ CREATE TABLE tbl_category_sub (
 -- ユーザーテーブル
 CREATE TABLE tbl_user (
     user_id VARCHAR(15) PRIMARY KEY,
-    displayname VARCHAR(30) NOT NULL
+    displayname VARCHAR(30) NOT NULL,
+    password_hash VARCHAR(60) NOT NULL, -- Bcryptで暗号化したPW
+    is_admin BIT NOT NULL DEFAULT 0 -- BITはMySQLでいうBOOLEAN
 );
 
 -- 服テーブル
@@ -35,7 +37,9 @@ CREATE TABLE tbl_item (
     main_category_id INT NOT NULL,
     sub_category_id INT NOT NULL,
     release_year INT NULL,
-    owned_flag BIT NOT NULL,
+    quantity INT NOT NULL,
+    purchase_price DECIMAL(10, 0)NOT NULL,
+    purchase_date DATE,
     FOREIGN KEY (brand_id) REFERENCES tbl_brand(brand_id),
     FOREIGN KEY (main_category_id) REFERENCES tbl_category_main(main_category_id),
     FOREIGN KEY (sub_category_id) REFERENCES tbl_category_sub(sub_category_id)

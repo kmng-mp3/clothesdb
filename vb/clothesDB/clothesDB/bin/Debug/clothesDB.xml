@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+clothesDB
+</name>
+</assembly>
+<members>
+<member name="T:clothesDB.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:clothesDB.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:clothesDB.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_userDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_itemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_brandDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_category_subDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_category_mainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_userRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_itemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_brandRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_category_subRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_category_mainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_userRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_itemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_brandRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_category_subRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.tbl_category_mainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSetTableAdapters.tbl_userTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSetTableAdapters.tbl_itemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSetTableAdapters.tbl_brandTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSetTableAdapters.tbl_category_subTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSetTableAdapters.tbl_category_mainTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:clothesDB.clothesDBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(clothesDB.clothesDBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:clothesDB.clothesDBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(clothesDB.clothesDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:clothesDB.clothesDBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(clothesDB.clothesDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:clothesDB.clothesDBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:clothesDB.clothesDBDataSetTableAdapters.TableAdapterManager.UpdateAll(clothesDB.clothesDBDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
