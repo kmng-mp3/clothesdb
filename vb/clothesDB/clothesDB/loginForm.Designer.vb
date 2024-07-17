@@ -34,52 +34,56 @@ Partial Class loginForm
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(23, 56)
+        Me.Label1.Location = New System.Drawing.Point(14, 37)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(28, 18)
+        Me.Label1.Size = New System.Drawing.Size(18, 12)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "ID:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(15, 100)
+        Me.Label2.Location = New System.Drawing.Point(9, 67)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(36, 18)
+        Me.Label2.Size = New System.Drawing.Size(23, 12)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "PW:"
         '
         'useridTextBox
         '
-        Me.useridTextBox.Location = New System.Drawing.Point(60, 51)
-        Me.useridTextBox.MaxLength = 15
+        Me.useridTextBox.Location = New System.Drawing.Point(36, 34)
+        Me.useridTextBox.Margin = New System.Windows.Forms.Padding(2)
         Me.useridTextBox.Name = "useridTextBox"
-        Me.useridTextBox.Size = New System.Drawing.Size(276, 25)
+        Me.useridTextBox.Size = New System.Drawing.Size(167, 19)
         Me.useridTextBox.TabIndex = 1
         '
         'passwordTextBox
         '
-        Me.passwordTextBox.Location = New System.Drawing.Point(60, 98)
-        Me.passwordTextBox.MaxLength = 60
+        Me.passwordTextBox.Location = New System.Drawing.Point(36, 65)
+        Me.passwordTextBox.Margin = New System.Windows.Forms.Padding(2)
         Me.passwordTextBox.Name = "passwordTextBox"
         Me.passwordTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.passwordTextBox.Size = New System.Drawing.Size(276, 25)
+        Me.passwordTextBox.Size = New System.Drawing.Size(167, 19)
         Me.passwordTextBox.TabIndex = 2
         '
         'loginButton
         '
-        Me.loginButton.Location = New System.Drawing.Point(355, 50)
+        Me.loginButton.Location = New System.Drawing.Point(213, 33)
+        Me.loginButton.Margin = New System.Windows.Forms.Padding(2)
         Me.loginButton.Name = "loginButton"
-        Me.loginButton.Size = New System.Drawing.Size(110, 30)
+        Me.loginButton.Size = New System.Drawing.Size(66, 20)
         Me.loginButton.TabIndex = 3
         Me.loginButton.Text = "ログイン"
         Me.loginButton.UseVisualStyleBackColor = True
         '
         'closeButton
         '
-        Me.closeButton.Location = New System.Drawing.Point(355, 96)
+        Me.closeButton.Location = New System.Drawing.Point(213, 64)
+        Me.closeButton.Margin = New System.Windows.Forms.Padding(2)
         Me.closeButton.Name = "closeButton"
-        Me.closeButton.Size = New System.Drawing.Size(110, 30)
+        Me.closeButton.Size = New System.Drawing.Size(66, 20)
         Me.closeButton.TabIndex = 4
         Me.closeButton.TabStop = False
         Me.closeButton.Text = "キャンセル"
@@ -89,18 +93,17 @@ Partial Class loginForm
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label3.Location = New System.Drawing.Point(15, 14)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label3.Location = New System.Drawing.Point(9, 9)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(250, 23)
+        Me.Label3.Size = New System.Drawing.Size(170, 15)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "clothesDB ログイン画面"
         '
         'loginForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 18.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(515, 147)
+        Me.ClientSize = New System.Drawing.Size(309, 98)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.closeButton)
         Me.Controls.Add(Me.loginButton)
@@ -108,6 +111,7 @@ Partial Class loginForm
         Me.Controls.Add(Me.useridTextBox)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "loginForm"
         Me.Text = "ログイン画面"
         Me.ResumeLayout(False)
