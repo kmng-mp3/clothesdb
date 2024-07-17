@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\81904\\documents\\clothesdb\\clothesdb\\vb\\clothesdb\\clothesdb\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|C:\\Users\\81904\\Documents\\clothesDB\\clothesdb\\vb\\clothesDB\\clothesdb\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "clothesDB\\loginForm.vb",
               "ToolTip": "C:\\Users\\81904\\Documents\\clothesDB\\clothesdb\\vb\\clothesDB\\clothesDB\\loginForm.vb",
               "RelativeToolTip": "clothesDB\\loginForm.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwEkAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-17T06:25:02.456Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "C:\\Users\\81904\\Documents\\clothesDB\\clothesdb\\vb\\clothesDB\\clothesDB\\loginForm.vb [\u30C7\u30B6\u30A4\u30F3]",
               "RelativeToolTip": "clothesDB\\loginForm.vb [\u30C7\u30B6\u30A4\u30F3]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-17T06:22:46.911Z",
-              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+              "WhenOpened": "2024-07-17T06:22:46.911Z"
             }
           ]
         }
