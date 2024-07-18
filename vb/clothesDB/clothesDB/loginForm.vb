@@ -31,7 +31,6 @@ Public Class loginForm
                     'Dim storedHash As String = dr("password_hash").ToString()
 
                     'If BCrypt.Net.BCrypt.Verify(passwordTextBox.Text, storedHash) Then
-
                     ' ---------------------ここまでBCrypt使用時のコード------------------------
 
                     ' ------------------------ここから通常時のコード-----------------------------
@@ -56,11 +55,11 @@ Public Class loginForm
 
                         '----------------- PW認証失敗時の処理 -----------------
 
-                        MsgBox("ユーザーIDかPWに誤りがあります")
+                        MsgBox("PWに誤りがあります")
                     End If
                 Else
                     ' ユーザーIDが存在しない時
-                    MsgBox("ユーザーIDかPWに誤りがあります")
+                    MsgBox("ユーザーIDに誤りがあります")
                 End If
 
                 ' データリーダーを閉じる

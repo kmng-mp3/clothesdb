@@ -16,6 +16,7 @@
         'TODO: このコード行はデータを 'ClothesDBDataSet.tbl_item' テーブルに読み込みます。必要に応じて移動、または削除をしてください。
         Me.Tbl_itemTableAdapter.Fill(Me.ClothesDBDataSet.tbl_item)
 
+
     End Sub
     Private Sub mainmenuButton_Click(sender As Object, e As EventArgs) Handles mainmenuButton.Click
         mainmenuForm.Show()

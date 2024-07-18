@@ -52,6 +52,11 @@ Represents the strongly named DataTable class.
 Represents the strongly named DataTable class.
 </summary>
 </member>
+<member name="T:clothesDB.clothesDBDataSet.clothesdb_listviewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
 <member name="T:clothesDB.clothesDBDataSet.tbl_userRow">
 <summary>
 Represents strongly named DataRow class.
@@ -73,6 +78,11 @@ Represents strongly named DataRow class.
 </summary>
 </member>
 <member name="T:clothesDB.clothesDBDataSet.tbl_category_mainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSet.clothesdb_listviewRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
@@ -102,6 +112,11 @@ Row event argument class
 Row event argument class
 </summary>
 </member>
+<member name="T:clothesDB.clothesDBDataSet.clothesdb_listviewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 <member name="T:clothesDB.clothesDBDataSetTableAdapters.tbl_userTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
@@ -123,6 +138,11 @@ Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
 <member name="T:clothesDB.clothesDBDataSetTableAdapters.tbl_category_mainTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:clothesDB.clothesDBDataSetTableAdapters.clothesdb_listviewTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
