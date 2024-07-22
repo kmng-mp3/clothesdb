@@ -23,23 +23,10 @@ Partial Class itemlistForm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(itemlistForm))
+        Dim Category_subLabel As System.Windows.Forms.Label
         Me.backmainmenuButton = New System.Windows.Forms.Button()
-        Me.Tbl_itemBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.BindingNavigatorAddNewItem = New System.Windows.Forms.ToolStripButton()
         Me.Tbl_itemBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.ClothesDBDataSet = New clothesDB.clothesDBDataSet()
-        Me.BindingNavigatorCountItem = New System.Windows.Forms.ToolStripLabel()
-        Me.BindingNavigatorDeleteItem = New System.Windows.Forms.ToolStripButton()
-        Me.BindingNavigatorMoveFirstItem = New System.Windows.Forms.ToolStripButton()
-        Me.BindingNavigatorMovePreviousItem = New System.Windows.Forms.ToolStripButton()
-        Me.BindingNavigatorSeparator = New System.Windows.Forms.ToolStripSeparator()
-        Me.BindingNavigatorPositionItem = New System.Windows.Forms.ToolStripTextBox()
-        Me.BindingNavigatorSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.BindingNavigatorMoveNextItem = New System.Windows.Forms.ToolStripButton()
-        Me.BindingNavigatorMoveLastItem = New System.Windows.Forms.ToolStripButton()
-        Me.BindingNavigatorSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.Tbl_itemBindingNavigatorSaveItem = New System.Windows.Forms.ToolStripButton()
         Me.itemeditButton = New System.Windows.Forms.Button()
         Me.Tbl_itemTableAdapter = New clothesDB.clothesDBDataSetTableAdapters.tbl_itemTableAdapter()
         Me.TableAdapterManager = New clothesDB.clothesDBDataSetTableAdapters.TableAdapterManager()
@@ -80,14 +67,27 @@ Partial Class itemlistForm
         Me.PurchaseDatePastTextBox = New System.Windows.Forms.TextBox()
         Me.PurchaseDateThenTextBox = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        CType(Me.Tbl_itemBindingNavigator, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Tbl_itemBindingNavigator.SuspendLayout()
+        Me.Tbl_category_subBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Tbl_category_subTableAdapter = New clothesDB.clothesDBDataSetTableAdapters.tbl_category_subTableAdapter()
+        Me.Category_subComboBox = New System.Windows.Forms.ComboBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Category_subLabel = New System.Windows.Forms.Label()
         CType(Me.Tbl_itemBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ClothesDBDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Clothesdb_listviewBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Clothesdb_listviewDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Tbl_category_mainBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Tbl_category_subBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'Category_subLabel
+        '
+        Category_subLabel.AutoSize = True
+        Category_subLabel.Location = New System.Drawing.Point(12, 136)
+        Category_subLabel.Name = "Category_subLabel"
+        Category_subLabel.Size = New System.Drawing.Size(68, 15)
+        Category_subLabel.TabIndex = 29
+        Category_subLabel.Text = "小カテゴリ:"
         '
         'backmainmenuButton
         '
@@ -98,34 +98,6 @@ Partial Class itemlistForm
         Me.backmainmenuButton.Text = "メインメニュー"
         Me.backmainmenuButton.UseVisualStyleBackColor = True
         '
-        'Tbl_itemBindingNavigator
-        '
-        Me.Tbl_itemBindingNavigator.AddNewItem = Me.BindingNavigatorAddNewItem
-        Me.Tbl_itemBindingNavigator.BindingSource = Me.Tbl_itemBindingSource
-        Me.Tbl_itemBindingNavigator.CountItem = Me.BindingNavigatorCountItem
-        Me.Tbl_itemBindingNavigator.DeleteItem = Me.BindingNavigatorDeleteItem
-        Me.Tbl_itemBindingNavigator.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.Tbl_itemBindingNavigator.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BindingNavigatorMoveFirstItem, Me.BindingNavigatorMovePreviousItem, Me.BindingNavigatorSeparator, Me.BindingNavigatorPositionItem, Me.BindingNavigatorCountItem, Me.BindingNavigatorSeparator1, Me.BindingNavigatorMoveNextItem, Me.BindingNavigatorMoveLastItem, Me.BindingNavigatorSeparator2, Me.BindingNavigatorAddNewItem, Me.BindingNavigatorDeleteItem, Me.Tbl_itemBindingNavigatorSaveItem})
-        Me.Tbl_itemBindingNavigator.Location = New System.Drawing.Point(0, 0)
-        Me.Tbl_itemBindingNavigator.MoveFirstItem = Me.BindingNavigatorMoveFirstItem
-        Me.Tbl_itemBindingNavigator.MoveLastItem = Me.BindingNavigatorMoveLastItem
-        Me.Tbl_itemBindingNavigator.MoveNextItem = Me.BindingNavigatorMoveNextItem
-        Me.Tbl_itemBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
-        Me.Tbl_itemBindingNavigator.Name = "Tbl_itemBindingNavigator"
-        Me.Tbl_itemBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.Tbl_itemBindingNavigator.Size = New System.Drawing.Size(1040, 27)
-        Me.Tbl_itemBindingNavigator.TabIndex = 2
-        Me.Tbl_itemBindingNavigator.Text = "BindingNavigator1"
-        '
-        'BindingNavigatorAddNewItem
-        '
-        Me.BindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.BindingNavigatorAddNewItem.Image = CType(resources.GetObject("BindingNavigatorAddNewItem.Image"), System.Drawing.Image)
-        Me.BindingNavigatorAddNewItem.Name = "BindingNavigatorAddNewItem"
-        Me.BindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(29, 24)
-        Me.BindingNavigatorAddNewItem.Text = "新規追加"
-        '
         'Tbl_itemBindingSource
         '
         Me.Tbl_itemBindingSource.DataMember = "tbl_item"
@@ -135,91 +107,6 @@ Partial Class itemlistForm
         '
         Me.ClothesDBDataSet.DataSetName = "clothesDBDataSet"
         Me.ClothesDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'BindingNavigatorCountItem
-        '
-        Me.BindingNavigatorCountItem.Name = "BindingNavigatorCountItem"
-        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(37, 24)
-        Me.BindingNavigatorCountItem.Text = "/ {0}"
-        Me.BindingNavigatorCountItem.ToolTipText = "項目の総数"
-        '
-        'BindingNavigatorDeleteItem
-        '
-        Me.BindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.BindingNavigatorDeleteItem.Image = CType(resources.GetObject("BindingNavigatorDeleteItem.Image"), System.Drawing.Image)
-        Me.BindingNavigatorDeleteItem.Name = "BindingNavigatorDeleteItem"
-        Me.BindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorDeleteItem.Size = New System.Drawing.Size(29, 24)
-        Me.BindingNavigatorDeleteItem.Text = "削除"
-        '
-        'BindingNavigatorMoveFirstItem
-        '
-        Me.BindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.BindingNavigatorMoveFirstItem.Image = CType(resources.GetObject("BindingNavigatorMoveFirstItem.Image"), System.Drawing.Image)
-        Me.BindingNavigatorMoveFirstItem.Name = "BindingNavigatorMoveFirstItem"
-        Me.BindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveFirstItem.Size = New System.Drawing.Size(29, 24)
-        Me.BindingNavigatorMoveFirstItem.Text = "最初に移動"
-        '
-        'BindingNavigatorMovePreviousItem
-        '
-        Me.BindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.BindingNavigatorMovePreviousItem.Image = CType(resources.GetObject("BindingNavigatorMovePreviousItem.Image"), System.Drawing.Image)
-        Me.BindingNavigatorMovePreviousItem.Name = "BindingNavigatorMovePreviousItem"
-        Me.BindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMovePreviousItem.Size = New System.Drawing.Size(29, 24)
-        Me.BindingNavigatorMovePreviousItem.Text = "前に戻る"
-        '
-        'BindingNavigatorSeparator
-        '
-        Me.BindingNavigatorSeparator.Name = "BindingNavigatorSeparator"
-        Me.BindingNavigatorSeparator.Size = New System.Drawing.Size(6, 27)
-        '
-        'BindingNavigatorPositionItem
-        '
-        Me.BindingNavigatorPositionItem.AccessibleName = "位置"
-        Me.BindingNavigatorPositionItem.AutoSize = False
-        Me.BindingNavigatorPositionItem.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!)
-        Me.BindingNavigatorPositionItem.Name = "BindingNavigatorPositionItem"
-        Me.BindingNavigatorPositionItem.Size = New System.Drawing.Size(50, 27)
-        Me.BindingNavigatorPositionItem.Text = "0"
-        Me.BindingNavigatorPositionItem.ToolTipText = "現在の場所"
-        '
-        'BindingNavigatorSeparator1
-        '
-        Me.BindingNavigatorSeparator1.Name = "BindingNavigatorSeparator1"
-        Me.BindingNavigatorSeparator1.Size = New System.Drawing.Size(6, 27)
-        '
-        'BindingNavigatorMoveNextItem
-        '
-        Me.BindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.BindingNavigatorMoveNextItem.Image = CType(resources.GetObject("BindingNavigatorMoveNextItem.Image"), System.Drawing.Image)
-        Me.BindingNavigatorMoveNextItem.Name = "BindingNavigatorMoveNextItem"
-        Me.BindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveNextItem.Size = New System.Drawing.Size(29, 24)
-        Me.BindingNavigatorMoveNextItem.Text = "次に移動"
-        '
-        'BindingNavigatorMoveLastItem
-        '
-        Me.BindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.BindingNavigatorMoveLastItem.Image = CType(resources.GetObject("BindingNavigatorMoveLastItem.Image"), System.Drawing.Image)
-        Me.BindingNavigatorMoveLastItem.Name = "BindingNavigatorMoveLastItem"
-        Me.BindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveLastItem.Size = New System.Drawing.Size(29, 24)
-        Me.BindingNavigatorMoveLastItem.Text = "最後に移動"
-        '
-        'BindingNavigatorSeparator2
-        '
-        Me.BindingNavigatorSeparator2.Name = "BindingNavigatorSeparator2"
-        Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 27)
-        '
-        'Tbl_itemBindingNavigatorSaveItem
-        '
-        Me.Tbl_itemBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.Tbl_itemBindingNavigatorSaveItem.Image = CType(resources.GetObject("Tbl_itemBindingNavigatorSaveItem.Image"), System.Drawing.Image)
-        Me.Tbl_itemBindingNavigatorSaveItem.Name = "Tbl_itemBindingNavigatorSaveItem"
-        Me.Tbl_itemBindingNavigatorSaveItem.Size = New System.Drawing.Size(29, 24)
-        Me.Tbl_itemBindingNavigatorSaveItem.Text = "データの保存"
         '
         'itemeditButton
         '
@@ -255,6 +142,7 @@ Partial Class itemlistForm
         '
         'Clothesdb_listviewDataGridView
         '
+        Me.Clothesdb_listviewDataGridView.AllowUserToOrderColumns = True
         Me.Clothesdb_listviewDataGridView.AutoGenerateColumns = False
         Me.Clothesdb_listviewDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Clothesdb_listviewDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn1})
@@ -526,7 +414,6 @@ Partial Class itemlistForm
         Me.PurchaseDatePastTextBox.Name = "PurchaseDatePastTextBox"
         Me.PurchaseDatePastTextBox.Size = New System.Drawing.Size(107, 22)
         Me.PurchaseDatePastTextBox.TabIndex = 27
-        Me.PurchaseDatePastTextBox.Text = "YYYY/MM/DD"
         '
         'PurchaseDateThenTextBox
         '
@@ -535,7 +422,6 @@ Partial Class itemlistForm
         Me.PurchaseDateThenTextBox.Name = "PurchaseDateThenTextBox"
         Me.PurchaseDateThenTextBox.Size = New System.Drawing.Size(107, 22)
         Me.PurchaseDateThenTextBox.TabIndex = 28
-        Me.PurchaseDateThenTextBox.Text = "YYYY/MM/DD"
         '
         'Label12
         '
@@ -546,11 +432,41 @@ Partial Class itemlistForm
         Me.Label12.TabIndex = 29
         Me.Label12.Text = "～"
         '
+        'Tbl_category_subBindingSource
+        '
+        Me.Tbl_category_subBindingSource.DataMember = "tbl_category_sub"
+        Me.Tbl_category_subBindingSource.DataSource = Me.ClothesDBDataSet
+        '
+        'Tbl_category_subTableAdapter
+        '
+        Me.Tbl_category_subTableAdapter.ClearBeforeFill = True
+        '
+        'Category_subComboBox
+        '
+        Me.Category_subComboBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Tbl_category_subBindingSource, "category_sub", True))
+        Me.Category_subComboBox.FormattingEnabled = True
+        Me.Category_subComboBox.Location = New System.Drawing.Point(88, 129)
+        Me.Category_subComboBox.Name = "Category_subComboBox"
+        Me.Category_subComboBox.Size = New System.Drawing.Size(190, 23)
+        Me.Category_subComboBox.TabIndex = 30
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(400, 158)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(238, 15)
+        Me.Label13.TabIndex = 31
+        Me.Label13.Text = "YYYY/MM/DD形式で入力してください"
+        '
         'itemlistForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1040, 652)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Category_subLabel)
+        Me.Controls.Add(Me.Category_subComboBox)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.PurchaseDateThenTextBox)
         Me.Controls.Add(Me.PurchaseDatePastTextBox)
@@ -576,19 +492,16 @@ Partial Class itemlistForm
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Clothesdb_listviewDataGridView)
         Me.Controls.Add(Me.itemeditButton)
-        Me.Controls.Add(Me.Tbl_itemBindingNavigator)
         Me.Controls.Add(Me.backmainmenuButton)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "itemlistForm"
         Me.Text = "itemlistForm"
-        CType(Me.Tbl_itemBindingNavigator, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Tbl_itemBindingNavigator.ResumeLayout(False)
-        Me.Tbl_itemBindingNavigator.PerformLayout()
         CType(Me.Tbl_itemBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ClothesDBDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Clothesdb_listviewBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Clothesdb_listviewDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Tbl_category_mainBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Tbl_category_subBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -598,19 +511,6 @@ Partial Class itemlistForm
     Friend WithEvents Tbl_itemBindingSource As BindingSource
     Friend WithEvents Tbl_itemTableAdapter As clothesDBDataSetTableAdapters.tbl_itemTableAdapter
     Friend WithEvents TableAdapterManager As clothesDBDataSetTableAdapters.TableAdapterManager
-    Friend WithEvents Tbl_itemBindingNavigator As BindingNavigator
-    Friend WithEvents BindingNavigatorAddNewItem As ToolStripButton
-    Friend WithEvents BindingNavigatorCountItem As ToolStripLabel
-    Friend WithEvents BindingNavigatorDeleteItem As ToolStripButton
-    Friend WithEvents BindingNavigatorMoveFirstItem As ToolStripButton
-    Friend WithEvents BindingNavigatorMovePreviousItem As ToolStripButton
-    Friend WithEvents BindingNavigatorSeparator As ToolStripSeparator
-    Friend WithEvents BindingNavigatorPositionItem As ToolStripTextBox
-    Friend WithEvents BindingNavigatorSeparator1 As ToolStripSeparator
-    Friend WithEvents BindingNavigatorMoveNextItem As ToolStripButton
-    Friend WithEvents BindingNavigatorMoveLastItem As ToolStripButton
-    Friend WithEvents BindingNavigatorSeparator2 As ToolStripSeparator
-    Friend WithEvents Tbl_itemBindingNavigatorSaveItem As ToolStripButton
     Friend WithEvents itemeditButton As Button
     Friend WithEvents Clothesdb_listviewBindingSource As BindingSource
     Friend WithEvents Clothesdb_listviewTableAdapter As clothesDBDataSetTableAdapters.clothesdb_listviewTableAdapter
@@ -649,4 +549,8 @@ Partial Class itemlistForm
     Friend WithEvents PurchaseDatePastTextBox As TextBox
     Friend WithEvents PurchaseDateThenTextBox As TextBox
     Friend WithEvents Label12 As Label
+    Friend WithEvents Tbl_category_subBindingSource As BindingSource
+    Friend WithEvents Tbl_category_subTableAdapter As clothesDBDataSetTableAdapters.tbl_category_subTableAdapter
+    Friend WithEvents Category_subComboBox As ComboBox
+    Friend WithEvents Label13 As Label
 End Class

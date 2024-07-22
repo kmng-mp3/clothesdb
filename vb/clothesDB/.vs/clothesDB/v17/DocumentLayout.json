@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\itemlistform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\itemlistform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\itemlistform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\itemlistform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\itemlistform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\itemlistform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|clothesDB||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
@@ -24,8 +24,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "itemlistForm.vb",
+              "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemlistForm.vb",
+              "RelativeDocumentMoniker": "clothesDB\\itemlistForm.vb",
+              "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemlistForm.vb",
+              "RelativeToolTip": "clothesDB\\itemlistForm.vb",
+              "ViewState": "AQIAAOIAAAAAAAAAAAAmwOoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-22T07:02:14.217Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -41,19 +54,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "itemlistForm.vb",
-              "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemlistForm.vb",
-              "RelativeDocumentMoniker": "clothesDB\\itemlistForm.vb",
-              "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemlistForm.vb",
-              "RelativeToolTip": "clothesDB\\itemlistForm.vb",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAQwHoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-18T01:43:16.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "itemlistForm.vb [\u30C7\u30B6\u30A4\u30F3]",
               "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemlistForm.vb",
               "RelativeDocumentMoniker": "clothesDB\\itemlistForm.vb",
