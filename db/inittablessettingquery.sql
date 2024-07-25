@@ -183,3 +183,17 @@ INSERT INTO tbl_category_sub (category_sub, main_category_id) VALUES
 ('Earphone/Headphone', 15),
 ('Earphone/Headphone Case', 15),
 ('Other Tech', 15);
+
+-- テスト用データの追加
+INSERT INTO tbl_item VALUES (
+    'Andre 3000 Tee', 1, 1, 1, 2022, '2022-08-22'
+),
+(
+    'Industrial Belt', 4, 13, 88, 2016, 1, 30000, '2016-10-01'
+),
+(
+    'TESTTEE', 2, 1, 1, 2000, 1, 9999, '2024-07-23'
+),
+(
+    'TESTSHIRTS', 1, 2, 1, 2020, 1, 10000, '2024-07-25'
+);
