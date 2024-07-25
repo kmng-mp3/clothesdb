@@ -64,7 +64,7 @@
 
         ' category_mainに対応するcategory_subのリストを取得してCategory_subComboBoxに追加
         Using connection As New SqlClient.SqlConnection(My.Settings.clothesDBConnectionString)
-            Dim command As New SqlClient.SqlCommand("SELECT DISTINCT category_sub FROM tbl_category_sub WHERE main_category_id = (SELECT main_category_id FROM tbl_category_main WHERE category_main = @category_main)", connection)
+            Dim command As New SqlClient.SqlCommand("SELECT category_sub FROM tbl_category_sub WHERE main_category_id = (SELECT main_category_id FROM tbl_category_main WHERE category_main = @category_main) ORDER BY sub_category_id", connection)
             command.Parameters.Add("@category_main", SqlDbType.VarChar).Value = category_main
             connection.Open()
             Dim reader As SqlClient.SqlDataReader = command.ExecuteReader()

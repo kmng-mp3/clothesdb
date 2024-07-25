@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\itemlistform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\itemlistform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\itemlistform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\itemlistform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\itemeditform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\itemeditform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\mainmenuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\mainmenuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\itemaddnewform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\itemaddnewform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\itemaddnewform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\itemaddnewform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|clothesDB||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\clothesdbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|solutionrelative:clothesdb\\clothesdbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62E9FF17-27F4-457C-B58D-3FDF839955D6}|clothesDB\\clothesDB.vbproj|c:\\users\\main\\documents\\clothesdb\\vb\\clothesdb\\clothesdb\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
@@ -29,39 +45,88 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "itemlistForm.vb",
-              "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemlistForm.vb",
-              "RelativeDocumentMoniker": "clothesDB\\itemlistForm.vb",
-              "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemlistForm.vb",
-              "RelativeToolTip": "clothesDB\\itemlistForm.vb",
-              "ViewState": "AQIAAOIAAAAAAAAAAAAmwOoAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-22T07:02:14.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clothesDB",
-              "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\clothesDB.vbproj",
-              "RelativeDocumentMoniker": "clothesDB\\clothesDB.vbproj",
-              "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\clothesDB.vbproj",
-              "RelativeToolTip": "clothesDB\\clothesDB.vbproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-18T02:51:10.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "itemlistForm.vb [\u30C7\u30B6\u30A4\u30F3]",
               "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemlistForm.vb",
               "RelativeDocumentMoniker": "clothesDB\\itemlistForm.vb",
               "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemlistForm.vb [\u30C7\u30B6\u30A4\u30F3]",
               "RelativeToolTip": "clothesDB\\itemlistForm.vb [\u30C7\u30B6\u30A4\u30F3]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-18T01:38:51.33Z",
+              "WhenOpened": "2024-07-25T07:31:33.791Z",
               "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "itemeditForm.vb",
+              "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemeditForm.vb",
+              "RelativeDocumentMoniker": "clothesDB\\itemeditForm.vb",
+              "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemeditForm.vb",
+              "RelativeToolTip": "clothesDB\\itemeditForm.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-25T05:29:13.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "itemAddNewForm.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemAddNewForm.vb",
+              "RelativeDocumentMoniker": "clothesDB\\itemAddNewForm.vb",
+              "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemAddNewForm.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "clothesDB\\itemAddNewForm.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-25T02:57:27.991Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "itemAddNewForm.vb",
+              "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemAddNewForm.vb",
+              "RelativeDocumentMoniker": "clothesDB\\itemAddNewForm.vb",
+              "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\itemAddNewForm.vb",
+              "RelativeToolTip": "clothesDB\\itemAddNewForm.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-23T00:54:55.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mainmenuForm.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\mainmenuForm.vb",
+              "RelativeDocumentMoniker": "clothesDB\\mainmenuForm.vb",
+              "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\mainmenuForm.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "clothesDB\\mainmenuForm.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-25T02:48:00.061Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clothesDB",
+              "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\clothesDB.vbproj",
+              "RelativeDocumentMoniker": "clothesDB\\clothesDB.vbproj",
+              "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\clothesDB.vbproj",
+              "RelativeToolTip": "clothesDB\\clothesDB.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-25T01:58:40.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clothesDBDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\clothesDBDataSet.xsd",
+              "RelativeDocumentMoniker": "clothesDB\\clothesDBDataSet.xsd",
+              "ToolTip": "C:\\Users\\main\\Documents\\clothesDB\\vb\\clothesDB\\clothesDB\\clothesDBDataSet.xsd",
+              "RelativeToolTip": "clothesDB\\clothesDBDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-07-25T01:39:13.612Z",
+              "EditorCaption": ""
             }
           ]
         }

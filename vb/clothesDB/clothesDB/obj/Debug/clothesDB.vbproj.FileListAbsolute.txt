@@ -12,7 +12,6 @@ C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\obj\Debug\clothesDB.xml
 C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\obj\Debug\clothesDB.pdb
 C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\obj\Debug\clothesDB.mainmenuForm.resources
 C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\obj\Debug\clothesDB.itemlistForm.resources
-C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\obj\Debug\clothesDB.itemeditForm.resources
 C:\Users\81904\Documents\clothesDB\clothesdb\vb\clothesDB\clothesDB\bin\Debug\clothesDB.exe.config
 C:\Users\81904\Documents\clothesDB\clothesdb\vb\clothesDB\clothesDB\bin\Debug\clothesDB.exe
 C:\Users\81904\Documents\clothesDB\clothesdb\vb\clothesDB\clothesDB\bin\Debug\clothesDB.pdb
@@ -39,3 +38,5 @@ C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\bin\Debug\System.Memory
 C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\obj\Debug\clothesDB.vbproj.Up2Date
+C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\obj\Debug\clothesDB.itemAddNewForm.resources
+C:\Users\main\Documents\clothesDB\vb\clothesDB\clothesDB\obj\Debug\clothesDB.itemeditForm.resources

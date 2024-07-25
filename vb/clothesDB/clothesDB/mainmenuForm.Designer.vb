@@ -24,6 +24,7 @@ Partial Class mainmenuForm
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.itemeditButton = New System.Windows.Forms.Button()
         Me.itemlistviewButton = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.userinfoButton = New System.Windows.Forms.Button()
@@ -31,7 +32,7 @@ Partial Class mainmenuForm
         Me.ategoryeditButton = New System.Windows.Forms.Button()
         Me.logoutButton = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.itemeditButton = New System.Windows.Forms.Button()
+        Me.itemAddNewButton = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
@@ -49,19 +50,31 @@ Partial Class mainmenuForm
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.itemAddNewButton)
         Me.Panel1.Controls.Add(Me.itemeditButton)
         Me.Panel1.Controls.Add(Me.itemlistviewButton)
         Me.Panel1.Location = New System.Drawing.Point(20, 76)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(267, 360)
         Me.Panel1.TabIndex = 1
+        '
+        'itemeditButton
+        '
+        Me.itemeditButton.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.itemeditButton.Location = New System.Drawing.Point(4, 121)
+        Me.itemeditButton.Margin = New System.Windows.Forms.Padding(4)
+        Me.itemeditButton.Name = "itemeditButton"
+        Me.itemeditButton.Size = New System.Drawing.Size(259, 110)
+        Me.itemeditButton.TabIndex = 4
+        Me.itemeditButton.Text = "アイテム編集"
+        Me.itemeditButton.UseVisualStyleBackColor = True
         '
         'itemlistviewButton
         '
         Me.itemlistviewButton.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.itemlistviewButton.Location = New System.Drawing.Point(4, 4)
-        Me.itemlistviewButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.itemlistviewButton.Margin = New System.Windows.Forms.Padding(4)
         Me.itemlistviewButton.Name = "itemlistviewButton"
         Me.itemlistviewButton.Size = New System.Drawing.Size(259, 110)
         Me.itemlistviewButton.TabIndex = 3
@@ -74,7 +87,7 @@ Partial Class mainmenuForm
         Me.Panel3.Controls.Add(Me.brandeditButton)
         Me.Panel3.Controls.Add(Me.ategoryeditButton)
         Me.Panel3.Location = New System.Drawing.Point(295, 76)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(267, 360)
         Me.Panel3.TabIndex = 2
@@ -83,7 +96,7 @@ Partial Class mainmenuForm
         '
         Me.userinfoButton.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.userinfoButton.Location = New System.Drawing.Point(4, 239)
-        Me.userinfoButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.userinfoButton.Margin = New System.Windows.Forms.Padding(4)
         Me.userinfoButton.Name = "userinfoButton"
         Me.userinfoButton.Size = New System.Drawing.Size(259, 110)
         Me.userinfoButton.TabIndex = 7
@@ -94,7 +107,7 @@ Partial Class mainmenuForm
         '
         Me.brandeditButton.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.brandeditButton.Location = New System.Drawing.Point(4, 121)
-        Me.brandeditButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.brandeditButton.Margin = New System.Windows.Forms.Padding(4)
         Me.brandeditButton.Name = "brandeditButton"
         Me.brandeditButton.Size = New System.Drawing.Size(259, 110)
         Me.brandeditButton.TabIndex = 6
@@ -105,7 +118,7 @@ Partial Class mainmenuForm
         '
         Me.ategoryeditButton.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.ategoryeditButton.Location = New System.Drawing.Point(4, 4)
-        Me.ategoryeditButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ategoryeditButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ategoryeditButton.Name = "ategoryeditButton"
         Me.ategoryeditButton.Size = New System.Drawing.Size(259, 110)
         Me.ategoryeditButton.TabIndex = 5
@@ -115,7 +128,7 @@ Partial Class mainmenuForm
         'logoutButton
         '
         Me.logoutButton.Location = New System.Drawing.Point(461, 445)
-        Me.logoutButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.logoutButton.Margin = New System.Windows.Forms.Padding(4)
         Me.logoutButton.Name = "logoutButton"
         Me.logoutButton.Size = New System.Drawing.Size(100, 29)
         Me.logoutButton.TabIndex = 3
@@ -136,16 +149,16 @@ Partial Class mainmenuForm
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "管理者向けメニュー"
         '
-        'itemeditButton
+        'itemAddNewButton
         '
-        Me.itemeditButton.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.itemeditButton.Location = New System.Drawing.Point(4, 121)
-        Me.itemeditButton.Margin = New System.Windows.Forms.Padding(4)
-        Me.itemeditButton.Name = "itemeditButton"
-        Me.itemeditButton.Size = New System.Drawing.Size(259, 110)
-        Me.itemeditButton.TabIndex = 4
-        Me.itemeditButton.Text = "アイテム編集"
-        Me.itemeditButton.UseVisualStyleBackColor = True
+        Me.itemAddNewButton.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.itemAddNewButton.Location = New System.Drawing.Point(4, 239)
+        Me.itemAddNewButton.Margin = New System.Windows.Forms.Padding(4)
+        Me.itemAddNewButton.Name = "itemAddNewButton"
+        Me.itemAddNewButton.Size = New System.Drawing.Size(259, 110)
+        Me.itemAddNewButton.TabIndex = 5
+        Me.itemAddNewButton.Text = "アイテム登録"
+        Me.itemAddNewButton.UseVisualStyleBackColor = True
         '
         'mainmenuForm
         '
@@ -157,7 +170,7 @@ Partial Class mainmenuForm
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "mainmenuForm"
         Me.Text = "メインメニュー - clothesDB"
         Me.Panel1.ResumeLayout(False)
@@ -177,4 +190,5 @@ Partial Class mainmenuForm
     Friend WithEvents logoutButton As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents itemeditButton As Button
+    Friend WithEvents itemAddNewButton As Button
 End Class

@@ -149,6 +149,7 @@ Partial Class itemlistForm
         Me.Clothesdb_listviewDataGridView.DataSource = Me.Clothesdb_listviewBindingSource
         Me.Clothesdb_listviewDataGridView.Location = New System.Drawing.Point(12, 192)
         Me.Clothesdb_listviewDataGridView.Name = "Clothesdb_listviewDataGridView"
+        Me.Clothesdb_listviewDataGridView.ReadOnly = True
         Me.Clothesdb_listviewDataGridView.RowHeadersWidth = 51
         Me.Clothesdb_listviewDataGridView.RowTemplate.Height = 24
         Me.Clothesdb_listviewDataGridView.Size = New System.Drawing.Size(1008, 411)
@@ -160,6 +161,7 @@ Partial Class itemlistForm
         Me.DataGridViewTextBoxColumn2.HeaderText = "アイテム名"
         Me.DataGridViewTextBoxColumn2.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        Me.DataGridViewTextBoxColumn2.ReadOnly = True
         Me.DataGridViewTextBoxColumn2.Width = 125
         '
         'DataGridViewTextBoxColumn3
@@ -168,6 +170,7 @@ Partial Class itemlistForm
         Me.DataGridViewTextBoxColumn3.HeaderText = "ブランド名"
         Me.DataGridViewTextBoxColumn3.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        Me.DataGridViewTextBoxColumn3.ReadOnly = True
         Me.DataGridViewTextBoxColumn3.Width = 125
         '
         'DataGridViewTextBoxColumn4
@@ -176,6 +179,7 @@ Partial Class itemlistForm
         Me.DataGridViewTextBoxColumn4.HeaderText = "大カテゴリ"
         Me.DataGridViewTextBoxColumn4.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        Me.DataGridViewTextBoxColumn4.ReadOnly = True
         Me.DataGridViewTextBoxColumn4.Width = 125
         '
         'DataGridViewTextBoxColumn5
@@ -184,6 +188,7 @@ Partial Class itemlistForm
         Me.DataGridViewTextBoxColumn5.HeaderText = "小カテゴリ"
         Me.DataGridViewTextBoxColumn5.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        Me.DataGridViewTextBoxColumn5.ReadOnly = True
         Me.DataGridViewTextBoxColumn5.Width = 125
         '
         'DataGridViewTextBoxColumn6
@@ -192,6 +197,7 @@ Partial Class itemlistForm
         Me.DataGridViewTextBoxColumn6.HeaderText = "発売年"
         Me.DataGridViewTextBoxColumn6.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
+        Me.DataGridViewTextBoxColumn6.ReadOnly = True
         Me.DataGridViewTextBoxColumn6.Width = 125
         '
         'DataGridViewTextBoxColumn7
@@ -200,6 +206,7 @@ Partial Class itemlistForm
         Me.DataGridViewTextBoxColumn7.HeaderText = "所持数"
         Me.DataGridViewTextBoxColumn7.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
+        Me.DataGridViewTextBoxColumn7.ReadOnly = True
         Me.DataGridViewTextBoxColumn7.Width = 125
         '
         'DataGridViewTextBoxColumn8
@@ -208,6 +215,7 @@ Partial Class itemlistForm
         Me.DataGridViewTextBoxColumn8.HeaderText = "購入時金額"
         Me.DataGridViewTextBoxColumn8.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn8.Name = "DataGridViewTextBoxColumn8"
+        Me.DataGridViewTextBoxColumn8.ReadOnly = True
         Me.DataGridViewTextBoxColumn8.Width = 120
         '
         'DataGridViewTextBoxColumn9
@@ -216,6 +224,7 @@ Partial Class itemlistForm
         Me.DataGridViewTextBoxColumn9.HeaderText = "購入日"
         Me.DataGridViewTextBoxColumn9.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn9.Name = "DataGridViewTextBoxColumn9"
+        Me.DataGridViewTextBoxColumn9.ReadOnly = True
         Me.DataGridViewTextBoxColumn9.Width = 125
         '
         'DataGridViewTextBoxColumn1

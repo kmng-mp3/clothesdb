@@ -94,6 +94,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>clothesDBDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="itemAddNewForm.Designer.vb">
+      <DependentUpon>itemAddNewForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="itemAddNewForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="itemeditForm.Designer.vb">
       <DependentUpon>itemeditForm.vb</DependentUpon>
     </Compile>
@@ -138,6 +144,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="itemAddNewForm.resx">
+      <DependentUpon>itemAddNewForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="itemeditForm.resx">
       <DependentUpon>itemeditForm.vb</DependentUpon>
     </EmbeddedResource>

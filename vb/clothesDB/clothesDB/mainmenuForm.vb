@@ -18,4 +18,9 @@
         itemeditForm.Show()
         Me.Close()
     End Sub
+
+    Private Sub itemAddNewButton_Click(sender As Object, e As EventArgs) Handles itemAddNewButton.Click
+        itemAddNewForm.Show()
+        Me.Close()
+    End Sub
 End Class
